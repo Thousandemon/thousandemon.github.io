@@ -1,0 +1,70 @@
+
+header{
+    display: flex;
+    margin: 2rem auto;
+    max-width: 2000px;
+    justify-content: space-between;
+}
+
+
+
+
+.aboutMe{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 16rem 6rem 24rem 6rem;
+    column-gap: 5rem;
+    justify-content: center;
+    background-position: center, center;
+
+}
+.aboutMe img {
+    display: flex;
+    width: 75%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    justify-content: center;
+    margin-left: 6rem;
+
+}
+
+#projects {
+    display: grid;
+    margin: 0 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75rem 75rem;
+    grid-gap:10rem;
+}
+
+.project {
+    display: flexbox;
+    border-style: solid;
+    
+
+}
+.project h3 {
+    text-align: center;
+}
+.project p {
+    margin: 1rem;
+}
+
+.project li {
+    display: inline
+}
+.project img {
+    margin: 1rem 5rem;
+    width: 620px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+footer small {
+    display: flex;
+    justify-content: right;
+    margin-right: 5rem;
+}
